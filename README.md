@@ -27,4 +27,6 @@ pip3 install EMD-signal
 ```
 ### Run the code
 $ pyhon3 animal.py
+## Example
+https://danni203.github.io/animal.github.io/record_example.mp4
 
