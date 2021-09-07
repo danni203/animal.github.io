@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module HR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>HR</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/wang/animal/roi/Animal/HR.py">/home/wang/animal/roi/Animal/HR.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="PyEMD.html">PyEMD</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="UDP_server.html">UDP_server</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-bandpass"><strong>bandpass</strong></a>(signal, lowcut, highcut, framerate, order=3)</dt><dd><tt>butterworth&nbsp;filter</tt></dd></dl>
+ <dl><dt><a name="-butter_bandpass"><strong>butter_bandpass</strong></a>(lowcut, highcut, framerate, order=3)</dt><dd><tt>bandpass&nbsp;fildter&nbsp;using&nbsp;butterworth&nbsp;filter</tt></dd></dl>
+ <dl><dt><a name="-findBreathrate"><strong>findBreathrate</strong></a>(BRsignal, framerate)</dt></dl>
+ <dl><dt><a name="-findHeartrate"><strong>findHeartrate</strong></a>(BPsignal, framerate)</dt><dd><tt>calculate&nbsp;heartrate&nbsp;by&nbsp;finding&nbsp;peaks&nbsp;after&nbsp;signal&nbsp;processing&nbsp;of&nbsp;CEEMDAN<br>
+:param&nbsp;BPsignal(1D&nbsp;array):&nbsp;signal&nbsp;after&nbsp;bandpass&nbsp;filter<br>
+:param&nbsp;framerate(int):&nbsp;framerate&nbsp;of&nbsp;video/camera<br>
+###send&nbsp;cardiac&nbsp;signal&nbsp;to&nbsp;real&nbsp;display&nbsp;signal&nbsp;panel###<br>
+udp.send_signal_luma(sig,"luma")<br>
+udp.udp_time("heartrate")<br>
+udp.udp_send("Heartrate",int(freq))<br>
+:return:</tt></dd></dl>
+ <dl><dt><a name="-findPeakTimes"><strong>findPeakTimes</strong></a>(peaks, framerate)</dt></dl>
+ <dl><dt><a name="-findSignalQuality"><strong>findSignalQuality</strong></a>(signal, peaks, peakTimes)</dt></dl>
+ <dl><dt><a name="-saveCSV"><strong>saveCSV</strong></a>(signal, filename)</dt><dd><tt>Save&nbsp;signal&nbsp;into&nbsp;csv&nbsp;file</tt></dd></dl>
+ <dl><dt><a name="-saveHR"><strong>saveHR</strong></a>(hr, filename)</dt><dd><tt>Save&nbsp;heart&nbsp;rate&nbsp;into&nbsp;csv&nbsp;file</tt></dd></dl>
+ <dl><dt><a name="-savefredomain"><strong>savefredomain</strong></a>(amplitude, freq, filename)</dt><dd><tt>Save&nbsp;signal&nbsp;in&nbsp;frequence&nbsp;domain&nbsp;into&nbsp;csv&nbsp;file</tt></dd></dl>
+</td></tr></table>
+</body></html>
