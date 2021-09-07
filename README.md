@@ -25,5 +25,5 @@ pip3 install EMD-signal
     └── yolov3.weights
 ```
 ### Run the code
-$ ptyhon3 animal
+$ pyhon3 animal.py
 
