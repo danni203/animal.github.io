@@ -13,7 +13,8 @@ pip3 install EMD-signal
 ## Code documents
 [doc_code](https://danni203.github.io/animal.github.io/doc/animal.html)
 ## Code running tree
-.
+
+```bash
 ├── animal.py 
 ├── HR.py
 ├── UDP_server.py
@@ -22,6 +23,7 @@ pip3 install EMD-signal
     ├── coco.names
     ├── yolov3.cfg
     └── yolov3.weights
+```
 ### Run the code
 $ ptyhon3 animal
 
