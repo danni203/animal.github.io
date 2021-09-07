@@ -12,3 +12,16 @@ pip3 install EMD-signal
 [Dowload yolov3 weights](https://pjreddie.com/media/files/yolov3.weights)
 ## Code documents
 [doc_code](https://danni203.github.io/animal.github.io/doc/animal.html)
+## Code running tree
+.
+├── animal.py 
+├── HR.py
+├── UDP_server.py
+├── videos // videos need to be processed
+└── yolov3
+    ├── coco.names
+    ├── yolov3.cfg
+    └── yolov3.weights
+### Run the code
+$ ptyhon3 animal
+
