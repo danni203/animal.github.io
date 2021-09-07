@@ -8,3 +8,5 @@ pip3 install numpy
 pip3 install scipy
 ### PyEMD
 pip3 install EMD-signal
+### YOLOv3
+[Dowload yolov3 model](https://pjreddie.com/media/files)
